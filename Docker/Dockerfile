@@ -74,7 +74,7 @@ RUN conda install --quiet --yes \
     pip install 'feather-format==0.4.0' && \
     pip install 'vtreat==0.2.9' && \
     pip install 'wvpy==0.1.2' && \
-    pip install 'xgboost==0.9.0' && \
+    pip install 'xgboost==0.90' && \
     conda install -c conda-forge 'imbalanced-learn=0.4.3' && \
     conda install -c conda-forge 'pandas-profiling=2.3.0' && \
     conda install -c conda-forge vim && \
